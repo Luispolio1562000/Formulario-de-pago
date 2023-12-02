@@ -8,5 +8,20 @@
 </head>
 <body>
     
+    <form id="formulario"> 
+        <h2>Formulario de pago</h2>
+        <br>
+        <input type="number" min="0" name="card_number"  placeholder="Número de tarjeta" id="numeroTarjeta" required >
+        <input type="date" name="expiration_date" placeholder="Vence en" id="fecha" required>
+        <input type="text" name="security_code" placeholder="Código de seguridad" id="codigoSeguridad" required>
+        <br>
+        <h5>Dirección de la tarjeta</h5>
+        <input type="text" name="name" placeholder="Nombre" id="nombre" required>
+        <input type="text" name="surname" placeholder="Apellidos" id="apellidos" required>
+        <input type="text" name="address" placeholder="Domicilio" id="domicilio" required>
+        <input type="submit" value="Enviar">
+      </form>
+
+      <script src="./scripts.js"></script>
 </body>
 </html>
